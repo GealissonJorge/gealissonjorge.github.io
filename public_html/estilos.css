@@ -159,4 +159,27 @@ a.ref:hover{
 }
 h1{
     font-size: 50px;
+    margin: auto;
+    width: 50%;
+    padding: 0.1%;
+    position: relative;
+}
+h2{
+    margin: auto;
+    width: 50%;
+    padding: 0.1%;
+    position: relative;
+}
+section{
+    overflow: auto;
+    padding-bottom: 75px;
+}
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+article{
+    min-height: 100%;
 }
