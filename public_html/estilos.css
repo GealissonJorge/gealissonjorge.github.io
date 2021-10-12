@@ -1,3 +1,7 @@
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
 html{
     font-family: calibri;
     height: 100%;
@@ -46,10 +50,11 @@ body{
   clear: both;
 }
 .container2{
-    background: #333;
-    color: white;
-    border-radius: 2em;
-    padding: 2em;
+    background: #ddd;
+    text-align: center;
+    color: black;
+    margin: auto;
+    padding: 0.2%;
     position: relative;
 }
 p{
@@ -71,7 +76,7 @@ p{
 }
 #main {
   overflow: auto;
-  padding-bottom: 180px;
+  padding-bottom: 50px;
 }
 
 #wrap {
@@ -79,19 +84,26 @@ p{
 }
 
 .center{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    white-space: normal;
+    margin: auto;
+    width: 50%;
+    padding: 0.1%;
+    position: relative;
 }
 
 table, th, td{
     border:1px solid black;
+    padding: 15px;
 }
 table {
   width: 100%;
   border-collapse: collapse;
 }
+.table2{
+  width: 50%;
+  margin: auto;
+  border-collapse: collapse;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -100,4 +112,51 @@ table {
 
 .content {
     flex-grow: 1;
+}
+.button{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1{background-color: #04AA6D;}
+
+a.ref {
+    text-decoration: none;
+}
+a.ref:hover{
+    background-color:#04AA6D;
+}
+.containertbn{
+    position: relative;
+    margin: auto;
+    width: 50%;
+    padding: 0.1%;
+}
+.container3{
+    text-align: left;
+    background-color: #ddd;
+    color: black;
+    margin: auto;
+    width: 50%;
+    padding: 0.1%;
+    position: relative;
+    
+}
+.container4{
+   text-align: left;
+    background-color:white;
+    color: black;
+    margin: auto;
+    padding: 0.1%;
+    position: relative;
+}
+h1{
+    font-size: 50px;
 }
