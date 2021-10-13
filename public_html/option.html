@@ -9,13 +9,14 @@ and open the template in the editor.
         <title>Tag &lt;option&gt;</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/x-icon" href="img/1200px-HTML5_logo_and_wordmark.svg.png" />
         <link rel="stylesheet" href="estilos.css">
     </head>
     <body>
         <div class="topnav"><span class="text1"> &nbsp; Guia HTML5</span>  
         <a class="active" href="index.html">Início</a>
         <a href="referencia.html">Referências</a>
-        <a href="#sobrenos">Sobre Nós</a>        
+        <a href="sobrenos.html">Sobre Nós</a>        
         </div>
             <main >
                 <article>
@@ -48,18 +49,49 @@ and open the template in the editor.
                     </section>
                     <section>
                         <h2>Definição e Uso</h2>
-                        <p class="center">A tag &lt;option&gt; (Oportunidade de quebra de palavra) especifica onde em um texto seria correto adicionar uma quebra de linha.</p>
+                        <p class="center">A tag &lt;option&gt; define uma opção em uma lista de seleção.<br>
+
+&lt;option&gt;elementos vão dentro de um elemento &lt;select&gt; , &lt;optgroup&gt; ou &lt;datalist&gt; .<br>
+
+Observação: a &lt;option&gt;tag pode ser usada sem nenhum atributo, mas geralmente você precisa do atributo value , que indica o que é enviado ao servidor no envio do formulário.<br>
+
+Dica: Se você tiver uma longa lista de opções, poderá agrupar opções relacionadas na tag &lt;optgroup&gt; . <br></p>
                     </section>
                     <section>
                         <h2>Atributos</h2>
                         <div class="center">
-                            <p>Atributos globais:</p>
-                        </div>
-                        <table class="table table2">
+                            <p>Atributos:</p>
+                        </div>    
+                            <table class="table2">
                             <tr>
                                 <th>Atributo</th>
                                 <th>Descrição</th>
                             </tr>
+                            <tr>
+                                <th>disabled</th>
+                                <th>Especifica que uma opção deve ser desativada</th>
+                            </tr>
+                            <tr>
+                                <th>label</th>
+                                <th>Especifica um rótulo mais curto para uma opção</th>
+                            </tr>
+                            <tr>
+                                <th>selected</th>
+                                <th>Especifica que uma opção deve ser pré-selecionada quando a página carrega</th>
+                            </tr>
+                            <tr>
+                                <th>value</th>
+                                <th>Especifica o valor a ser enviado para um servidor</th>
+                            </tr>
+                            </table>
+                        <div class="center">
+                            <p>Atributos globais:</p>
+                        </div>
+                        <table class="table2">
+                            <tr>
+                                <th>Atributo</th>
+                                <th>Descrição</th>
+                            </tr>  
                             <tr>
                                 <th>accesskey</th>
                                 <th>Especifica uma tecla de atalho para ativar / enfocar um elemento</th>
@@ -117,11 +149,12 @@ and open the template in the editor.
                                 <th>Especifica se o conteúdo de um elemento deve ser traduzido ou não</th>
                             </tr>
                         </table>
+                            
                     </section>
                     
                     <section>
                         <h2>Suporte a Navegador</h2>
-                        <table class="table table2">
+                        <table class="table2">
                             <tr>
                                 <th>Tag</th>
                                 <th>Chrome</th>
@@ -144,7 +177,7 @@ and open the template in the editor.
         </main>
         <footer class="footer">
             <a style="color: white" href="index.html">Início</a>
-            <a style="color: white" href="#sobrenos">Sobre Nós</a>  
+            <a style="color: white" href="sobrenos.html">Sobre Nós</a>  
             <p >Copyright &copy; 2021 </p>
         </footer>
     </body>
