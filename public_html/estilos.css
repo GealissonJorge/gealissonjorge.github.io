@@ -187,6 +187,18 @@ article{
     margin:auto 75px;
     width:250px;
     height:250px;
-
 }
-
+.footer a{
+    color:white;
+}
+main article h1{
+    text-align: center;
+}
+.button_anterior{
+    float: left;
+    background-color: #04AA6D;
+}
+.button_proximo{
+    float: right;
+    background-color: #04AA6D;
+}
